@@ -10,3 +10,10 @@ Bubble sort
 - Algorithm degrades quickly
 
 - Stable sort algorithm
+
+
+Bubble sort = pairs of adjacent elements are compared, and the elements
+              swapped if they are not in order.
+
+              small data set = okay-ish
+              large data set = bad
