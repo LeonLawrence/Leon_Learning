@@ -1,0 +1,20 @@
+Quick Sort
+
+- Divide and conquer algorithm.
+- Recursive algorithm.
+- Uses a pivot element to partition the array into two parts.
+- Elements < pivot to its left, elements > pivot to its right.
+- Pivot will then be in its correct sorted position.
+
+
+- Process is now repeated for the left array and right array.
+- Eventually, every element has been the pivot, so every element
+  will be in its correct sorted position.
+- As with merge sort, we'll end up partitioning the array
+  into a series of 1-element arrays.
+- Does this in-place (unlike merge sort)
+
+
+- In-place algorithm.
+- O(nlogn) - base 2. We're repeatedly partitioning the array into two halves.
+- Unstable algorithm.
