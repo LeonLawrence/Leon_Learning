@@ -1,0 +1,22 @@
+Radix Sort
+
+- Makes assumptions about the data.
+- Data must have same radix and width.
+- Because of this, data must be integers or strings.
+- Sort based on each individual digit or letter position.
+- Start at the rightmost position.
+- Must use a stable sort algorithm at each stage.
+
+
+- Counting sort is often used as the sort algorithm for radix sort
+  (must be stable counting sort)
+
+- O(n) - can achieve this because we're making assumptions
+  about the data we're sorting.
+
+- Even so, it often runs slower than O(nlogn) algorithms, because
+  of the overhead involved.
+
+- In-place depends on which sort algorithm you use.
+
+- Stable algorithm.
