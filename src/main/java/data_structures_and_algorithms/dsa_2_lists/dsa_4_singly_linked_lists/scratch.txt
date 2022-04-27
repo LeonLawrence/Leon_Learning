@@ -1,0 +1,12 @@
+Linked List
+
+- A LinkedList is data structure for a group of objects, but
+  arraylist is not involved.
+
+- Each item in the list is called a node.
+- The first item in the list is not head of the list.
+
+1) Create a new node "Bill"
+2) Assign "Jane" to the next field
+3) Assign head to "Bill"
+4) Will be O(1) time complexity
