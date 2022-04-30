@@ -36,6 +36,23 @@ public class Main {
         }
         System.out.println("  null  ");
 
+        list.removeFirst();
+        iterator = list.iterator();
+        System.out.print("  HEAD ->  ");
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next());
+            System.out.print("  <=>  ");
+        }
+        System.out.println("  null  ");
+
+        list.removeLast();
+        iterator = list.iterator();
+        System.out.print("  HEAD ->  ");
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next());
+            System.out.print("  <=>  ");
+        }
+        System.out.println("  null  ");
 
 //        for (Employee employee : list) {
 //            System.out.println(employee);
