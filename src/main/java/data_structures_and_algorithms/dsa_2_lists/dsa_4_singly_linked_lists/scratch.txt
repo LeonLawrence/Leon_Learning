@@ -1,4 +1,4 @@
-Linked List
+Linked List (singly linked list)
 
 - A LinkedList is data structure for a group of objects, but
   arraylist is not involved.
@@ -10,3 +10,7 @@ Linked List
 2) Assign "Jane" to the next field
 3) Assign head to "Bill"
 4) Will be O(1) time complexity
+
+
+- A Singly linked list is best used for adding or removing on the
+  front of a list.
