@@ -3,10 +3,10 @@ package data_structures_and_algorithms.dsa_5_hashtables.dsa_3_linear_probing;
 public class SimpleHashtable {
 
 
-    private Employee[] hashtable;
+    private StoredEmployee[] hashtable;
 
     public SimpleHashtable() {
-        hashtable = new Employee[10];
+        hashtable = new StoredEmployee[10];
     }
 
     public void put(String key, Employee employee) {
@@ -27,17 +27,47 @@ public class SimpleHashtable {
         if (hashtable[hashedKey] != null) {
             System.out.println("Sorry, there's already an employee at position " + hashedKey);
         } else {
-            hashtable[hashedKey] = employee;
+            hashtable[hashedKey] = new StoredEmployee(key, employee);
         }
     }
 
     public Employee get(String key) {
-        int hashedkey = hashKey(key);
-        return hashtable[hashedkey];
+        int hashedkey = findKey(key);
+        if (hashedkey == -1) {
+            return null;
+        }
+        return hashtable[hashedkey].employee;
     }
 
     private int hashKey(String key) {
         return key.length() % hashtable.length;
+    }
+
+    private int findKey(String key) {
+        int hashedKey = hashKey(key);
+        if (hashtable[hashedKey] != null &&
+                hashtable[hashedKey].key.equals(key)) {
+            return hashedKey;
+        }
+
+        int stopIndex = hashedKey;
+        if (hashedKey == hashtable.length - 1) {
+            hashedKey = 0;
+        } else {
+            hashedKey++;
+        }
+
+        while (hashedKey != stopIndex &&
+                hashtable[hashedKey] != null &&
+                !hashtable[hashedKey].key.equals(key)) {
+            hashedKey = (hashedKey + 1) % hashtable.length;
+        }
+
+        if (stopIndex == hashedKey) {
+            return - 1;
+        } else {
+            return hashedKey;
+        }
     }
 
     private boolean occupied(int index) {
@@ -46,7 +76,12 @@ public class SimpleHashtable {
 
     public void printHashtable() {
         for (int i = 0; i < hashtable.length; i++) {
-            System.out.println(hashtable[i]);
+            if (hashtable[i] == null) {
+                System.out.println("empty");
+            } else {
+            System.out.println("position " + i + ": " + hashtable[i].employee);
+
+            }
         }
     }
 }
