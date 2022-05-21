@@ -37,7 +37,7 @@ public class ChainedHashtable {
         int hashedKey = hashKey(key);
         ListIterator<StoredEmployee> iterator = hashtable[hashedKey].listIterator();
         StoredEmployee employee = null;
-        int index = 0;
+        int index = -1;
         while (iterator.hasNext()) {
             employee = iterator.next();
             index++;
@@ -55,7 +55,24 @@ public class ChainedHashtable {
     }
 
     private int hashKey(String key) {
-        return key.length() % hashtable.length;
+//        return key.length() % hashtable.length;
 
+        return Math.abs(key.hashCode()) % hashtable.length;
+    }
+
+    public void printHashtable() {
+        for (int i = 0; i < hashtable.length; i++) {
+            if (hashtable[i].isEmpty()) {
+                System.out.println("Position " + i + ": empty");
+            } else {
+                System.out.print("Position " + i + ": ");
+                ListIterator<StoredEmployee> iterator = hashtable[i].listIterator();
+                while (iterator.hasNext()) {
+                    System.out.println(iterator.next().employee);
+                    System.out.println("->");
+                }
+                System.out.println("null");
+            }
+        }
     }
 }
