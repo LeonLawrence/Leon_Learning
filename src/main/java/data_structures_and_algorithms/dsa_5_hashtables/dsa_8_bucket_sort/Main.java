@@ -2,6 +2,7 @@ package data_structures_and_algorithms.dsa_5_hashtables.dsa_8_bucket_sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -19,6 +20,10 @@ public class Main {
         List<Integer>[] buckets = new List[10];
 
         for (int i = 0; i < buckets.length; i++) {
+            // using linked list for the buckets
+            // buckets[i] = new LinkedList<Integer>();
+
+            // using arraylists as the buckets
             buckets[i] = new ArrayList<Integer>();
         }
 
@@ -41,4 +46,4 @@ public class Main {
     private static int hash(int value) {
         return value / (int) 10;
     }
- }
+}
