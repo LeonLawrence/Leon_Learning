@@ -16,10 +16,22 @@ public class Main {
         hashMap.put("Jones", janeJones);
         hashMap.put("Doe", johnDoe);
         hashMap.put("Smith", marySmith);
+//        Employee employee = hashMap.put("Doe", mikeWilson);
+        Employee employee = hashMap.putIfAbsent("Doe", mikeWilson);
+        System.out.println(employee);
 
-        Iterator<Employee> iterator = hashMap.values().iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+        System.out.println(hashMap.getOrDefault("Smithh", mikeWilson));
+
+        System.out.println(hashMap.remove("Jones"));
+
+//        System.out.println(hashMap.containsKey("Doe"));
+//        System.out.println(hashMap.containsValue(janeJones));
+
+//        Iterator<Employee> iterator = hashMap.values().iterator();
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
+
+        hashMap.forEach((k, v) -> System.out.println("Key = " + k + ", Employee = " + v));
     }
 }
