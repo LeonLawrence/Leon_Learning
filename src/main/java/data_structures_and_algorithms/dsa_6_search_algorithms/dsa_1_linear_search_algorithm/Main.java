@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.dsa_7_trees.dsa_1_trees_theory;
+package data_structures_and_algorithms.dsa_6_search_algorithms.dsa_1_linear_search_algorithm;
 
 public class Main {
 
