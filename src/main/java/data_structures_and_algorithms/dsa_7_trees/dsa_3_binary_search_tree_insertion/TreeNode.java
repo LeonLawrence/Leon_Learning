@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.dsa_7_trees.dsa_3_binary_search_tree_implementation;
+package data_structures_and_algorithms.dsa_7_trees.dsa_3_binary_search_tree_insertion;
 
 public class TreeNode {
 
