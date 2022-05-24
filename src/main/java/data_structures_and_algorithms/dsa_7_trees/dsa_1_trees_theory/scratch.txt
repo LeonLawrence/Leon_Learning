@@ -1,0 +1,9 @@
+TREES
+
+- Hierarchical data structure
+
+- Every item in the tree is a node.
+- The node at the top of the tree is the root.
+- Every non-root node has one and only one parent.
+- A leaf node has no children.
+- A singleton tree has only one node - the root.

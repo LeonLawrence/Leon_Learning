@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.dsa_7_trees.dsa_2_binary_search_tree_theory;
+package data_structures_and_algorithms.dsa_6_search_algorithms.dsa_2_Binary_search_algorithm;
 
 public class Main {
     public static void main(String[] args) {
