@@ -1,0 +1,8 @@
+Traversal
+
+- Level - visit nodes on each level.
+- Pre-order - visit the root of every subtree first.
+- Post-order - visit the root of every subtree last.
+- In-order - visit left child, then root, then right child.
+
+Level order: 25, 20, 27, 15, 22, 26, 30, 29, 32
