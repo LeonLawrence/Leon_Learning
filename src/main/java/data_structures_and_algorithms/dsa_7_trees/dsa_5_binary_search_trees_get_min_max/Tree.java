@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.dsa_7_trees.dsa_5_binary_search_get_min_max;
+package data_structures_and_algorithms.dsa_7_trees.dsa_5_binary_search_trees_get_min_max;
 
 public class Tree {
 
