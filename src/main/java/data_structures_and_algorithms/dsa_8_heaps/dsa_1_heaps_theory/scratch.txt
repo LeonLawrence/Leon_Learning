@@ -1,0 +1,24 @@
+HEAPS
+
+- A complete binary tree.
+- Must satisfy the heap property.
+- Max heap: Every parent is greater than or equal to its children.
+- Min heap: Every parent is less than or equal to its children.
+
+--------------------------------------------------------------------------
+HEAPS
+
+- A binary heap must be a complete tree.
+
+- Children are added at each level from left to right.
+
+- Usually implemented as arrays.
+
+- The maximum or minimum value will always be at the root
+  of the tree - the advantage of using a heap.
+
+- Heapify: process of converting a binary tree into a heap -
+  this often has to be done after an insertion or deletion.
+
+- No required ordering between siblings.
+
