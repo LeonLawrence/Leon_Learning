@@ -1,0 +1,18 @@
+Heaps as Arrays
+
+- We can store binary heaps as arrays.
+- We put the root at array[0].
+- We then traverse each level from left to right,
+  and so the left child of the root would go into
+  array[1], it's right child would to into array[2],
+  ect.
+
+------------------------------------------------------------------------
+
+Insert into Heap
+
+- Always add new items to the end of the array.
+- Then we have to fix the heap (heapify).
+- We compare the new item against its parent.
+- If the item is greater than its parent, we swap it with its parent.
+- We then rinse and repeat.
