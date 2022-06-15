@@ -1,0 +1,7 @@
+Heaps - Sort
+
+- We know the root has the largest value.
+- Swap root with last element in the array.
+- Heapify the tree, but exclude the last node.
+- After heapify, second largest element is at the root.
+- Rinse and repeat.
