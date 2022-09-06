@@ -23,31 +23,48 @@ public class Main {
 
         System.out.println("----------------------------------------------------");
 
-        byte myByteMinValue = Byte.MIN_VALUE;
-        byte myByteMaxValue = Byte.MAX_VALUE;
-        System.out.println("Byte Minimum Value = " + myByteMinValue);
-        System.out.println("Byte Maximum Value = " + myByteMaxValue);
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
 
         System.out.println("----------------------------------------------------");
 
-        short myShortMinValue = Short.MIN_VALUE;
-        short myShortMaxValue = Short.MAX_VALUE;
-        System.out.println("Short Minimum Value = " + myShortMinValue);
-        System.out.println("Short Maximum Value = " + myShortMaxValue);
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Minimum Value = " + myMinShortValue);
+        System.out.println("Short Maximum Value = " + myMaxShortValue);
 
         System.out.println("----------------------------------------------------");
 
         long myLongValue = 100L;
 
-        long myLongMinValue = Long.MIN_VALUE;
-        long myLongMaxValue = Long.MAX_VALUE;
-        System.out.println("Long Minimum Value = " + myLongMinValue);
-        System.out.println("Long Maximum Value = " + myLongMaxValue);
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Minimum Value = " + myMinLongValue);
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
 
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
 
         short bigShortLiteralValue = 32767;
         System.out.println(bigShortLiteralValue);
+
+        System.out.println("----------------------------------------------------");
+
+        int myFirstNumber = (10 + 5) + (2 * 10);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        myTotal = (myMinIntValue / 2);
+
+        System.out.println(myTotal);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        System.out.println(myNewByteValue);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
