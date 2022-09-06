@@ -1,4 +1,4 @@
-package java_programming_masterclass.byte_short_int_long;
+package java_programming_masterclass.java_learning.java_1_byte_short_int_long;
 
 public class Main {
 

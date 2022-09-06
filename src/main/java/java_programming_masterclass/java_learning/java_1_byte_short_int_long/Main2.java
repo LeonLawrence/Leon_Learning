@@ -1,6 +1,6 @@
-package java_programming_masterclass;
+package java_programming_masterclass.java_learning.java_1_byte_short_int_long;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         System.out.println("My name is Leon");
 
