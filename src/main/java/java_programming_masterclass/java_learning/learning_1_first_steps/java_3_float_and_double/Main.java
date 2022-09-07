@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_3_float_and_double;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_3_float_and_double;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_8_operator_challenge;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_8_operator_challenge;
 
 public class Main {
     public static void main(String[] args) {

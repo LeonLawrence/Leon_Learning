@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_7_learning_operators;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_7_learning_operators;
 
 public class Main {
     public static void main(String[] args) {

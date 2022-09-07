@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_4_float_and_double_challenge;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_4_float_and_double_challenge;
 
 public class Main {
     public static void main(String[] arg) {

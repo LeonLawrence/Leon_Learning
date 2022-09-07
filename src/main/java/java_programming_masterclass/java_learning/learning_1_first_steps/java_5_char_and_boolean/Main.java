@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_5_char_and_boolean;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_5_char_and_boolean;
 
 public class Main {
     public static void main(String[] args) {

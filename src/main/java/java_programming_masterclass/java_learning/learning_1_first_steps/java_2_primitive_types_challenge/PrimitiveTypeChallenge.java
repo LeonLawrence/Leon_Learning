@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_2_primitive_types_challenge;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_2_primitive_types_challenge;
 
 public class PrimitiveTypeChallenge {
     public static void main(String[] args) {

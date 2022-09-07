@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.java_6_learning_strings;
+package java_programming_masterclass.java_learning.learning_1_first_steps.java_6_learning_strings;
 
 public class Main {
     public static void main(String[] args) {
