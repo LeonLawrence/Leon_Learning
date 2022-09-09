@@ -3,7 +3,7 @@ package java_programming_masterclass.java_learning.learning_2_java_tutorial.java
 public class Main {
     public static void main(String[] args) {
 
-        test();
+        test2();
         System.out.println("----------------------------");
 
         boolean gameOver = true;
@@ -11,7 +11,7 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        int highScore =  calculateScore(true, 800, 5, 100);
+        int highScore = calculateScore(true, 800, 5, 100);
         System.out.println("Your final score was " + highScore);
 
         score = 10000;
@@ -32,7 +32,6 @@ public class Main {
         }
         return -1;
     }
-
 
 
     // CHALLENGE
@@ -71,20 +70,55 @@ public class Main {
         calculateHighScorePosition(position);
     }
 
-    private static void calculateHighScorePosition(int playerScore) {
+    private static int calculateHighScorePosition(int playerScore) {
 
         if (playerScore > 1000) {
             System.out.println("position: " + 1);
-            System.out.println("---------------------------------");
+            return 1;
         } else if (playerScore > 500 && playerScore < 1000) {
             System.out.println("position: " + 2);
-            System.out.println("---------------------------------");
+            return 2;
         } else if (playerScore > 100 && playerScore < 500) {
             System.out.println("position: " + 3);
-            System.out.println("---------------------------------");
+            return 3;
         } else {
             System.out.println("position: " + 4);
-            System.out.println("---------------------------------");
+            return 4;
+        }
+    }
+
+    // ---------------------------------------------------------
+
+    /*
+    CHALLENGE SOLUTION
+
+     */
+
+    public static void test2() {
+        int highScorePosition = calculateHighScorePosition2(1500);
+        displayHighScorePosition2("Tim", highScorePosition);
+    }
+
+    public static void displayHighScorePosition2(String playerName, int highScorePosition) {
+        System.out.println(playerName + " managed to get into position "
+         + highScorePosition + " on the high score table");
+    }
+
+
+    private static int calculateHighScorePosition2(int playerScore) {
+
+        if (playerScore > 1000) {
+            System.out.println("position: " + 1);
+            return 1;
+        } else if (playerScore > 500 && playerScore < 1000) {
+            System.out.println("position: " + 2);
+            return 2;
+        } else if (playerScore > 100 && playerScore < 500) {
+            System.out.println("position: " + 3);
+            return 3;
+        } else {
+            System.out.println("position: " + 4);
+            return 4;
         }
     }
 }
