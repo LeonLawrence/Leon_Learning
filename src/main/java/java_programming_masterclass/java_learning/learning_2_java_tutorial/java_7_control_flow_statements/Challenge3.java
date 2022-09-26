@@ -45,7 +45,6 @@ public class Challenge3 {
                 }
             }
         }
-
     }
 
 
