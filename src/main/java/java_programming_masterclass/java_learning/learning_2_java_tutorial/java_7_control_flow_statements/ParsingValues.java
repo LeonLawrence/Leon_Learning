@@ -2,10 +2,10 @@ package java_programming_masterclass.java_learning.learning_2_java_tutorial.java
 
 public class ParsingValues {
     public static void main(String[] args) {
-        String numberAsString = "2022";
+        String numberAsString = "2022.125";
         System.out.println("numberAsString = " + numberAsString);
 
-        int number = Integer.parseInt(numberAsString);
+        double number = Double.parseDouble(numberAsString);
         System.out.println("number = " + number);
         System.out.println("-------------------------------------");
 
