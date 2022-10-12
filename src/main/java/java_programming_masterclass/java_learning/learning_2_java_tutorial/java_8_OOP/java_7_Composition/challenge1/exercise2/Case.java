@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_Composition.challenge;
+package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_Composition.challenge1.exercise2;
 
 public class Case {
     private String model;
