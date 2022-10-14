@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_Composition.challenge1.exercise2;
+package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_composition.challenge1.exercise1;
 
 public class Monitor {
     private String model;

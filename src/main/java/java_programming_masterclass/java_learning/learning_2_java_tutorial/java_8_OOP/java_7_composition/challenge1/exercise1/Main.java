@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_Composition.challenge1.exercise2;
+package java_programming_masterclass.java_learning.learning_2_java_tutorial.java_8_OOP.java_7_composition.challenge1.exercise1;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +11,8 @@ public class Main {
         Motherboard theMotherboard = new Motherboard("BJ-200", "Asus", 4, 6, "v2.44");
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
-//        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
-//        thePC.getMotherboard().loadProgram("Windows 1.0");
-//        thePC.getTheCase().pressPowerButton();
-    thePC.powerUp();
+        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
+        thePC.getMotherboard().loadProgram("Windows 1.0");
+        thePC.getTheCase().pressPowerButton();
     }
 }
