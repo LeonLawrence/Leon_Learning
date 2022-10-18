@@ -4,7 +4,7 @@ public class MegaBytesConverter {
 
         private int megabytes = 0; // Store megaBytes converted KiloBytes
         private int remainder = 0; // remainder kiloBytes
-    
+
     private void printMegaBytesAndKiloBytes(int kiloBytes) {
         // Invalid options
         if (kiloBytes < 0) {
