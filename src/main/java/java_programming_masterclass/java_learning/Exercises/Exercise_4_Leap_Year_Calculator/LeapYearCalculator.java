@@ -14,6 +14,7 @@ public class LeapYearCalculator {
                 }
             }
         }
+        System.out.print("The Year is not a leap year (it has 365 days) = ");
         return false;
     }
 
