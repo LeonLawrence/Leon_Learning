@@ -1,5 +1,6 @@
 package java_programming_masterclass.java_learning.learning_3_arrays_inbuilt_list_autoboxing_and_unboxing.java_1_arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Challenge {
@@ -36,11 +37,13 @@ public class Challenge {
     }
 
     public static int[] sortIntegers(int[] array) {
-        int[] sortedArray = new int[array.length];
+//        int[] sortedArray = new int[array.length];
+//
+//        for (int i = 0; i < array.length; i++) {
+//            sortedArray[i] = array[i];
+//        }
 
-        for (int i = 0; i < array.length; i++) {
-            sortedArray[i] = array[i];
-        }
+        int[] sortedArray = Arrays.copyOf(array, array.length);
 
         boolean flag = true;
         int temp;
