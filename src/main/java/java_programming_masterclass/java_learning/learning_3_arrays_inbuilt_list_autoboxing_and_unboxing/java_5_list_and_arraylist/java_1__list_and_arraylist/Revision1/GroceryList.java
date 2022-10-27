@@ -1,4 +1,4 @@
-package java_programming_masterclass.java_learning.learning_3_arrays_inbuilt_list_autoboxing_and_unboxing.java_5_list_and_arraylist.java_1__list_and_arraylist;
+package java_programming_masterclass.java_learning.learning_3_arrays_inbuilt_list_autoboxing_and_unboxing.java_5_list_and_arraylist.java_1__list_and_arraylist.Revision1;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ public class GroceryList {
     }
 
     public void printGroceryList() {
-        System.out.println("You have " + groceryList.size() + "items in your grocery list");
+        System.out.println("You have " + groceryList.size() + " items in your grocery list");
         for (int i = 0; i < groceryList.size(); i++) {
             System.out.println((i + 1) + ". " + groceryList.get(i));
         }
