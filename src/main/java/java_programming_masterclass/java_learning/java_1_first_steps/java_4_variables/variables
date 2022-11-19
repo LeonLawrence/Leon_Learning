@@ -1,0 +1,19 @@
+What are variables?
+
+Variables are a way to store information in our computer. Variables that we define in a
+program can be accessed by a name we give them, and the computer does the hard work
+of figuring out where they get stored in the computers random access memory (RAM).
+
+A variable, as the name suggests can be changed, in other words, it's contents are variable.
+What we have to do is tell the computer what type of information we want to store in the
+variable, and then give it a name.
+
+There are lots of different types of data we can define for our variables. Collectively these
+are known as Data types. As you may have guessed, data types are keywords in Java.
+
+Let's start out by defining a variable of type int - int being an abbreviation for integer, a
+whole number (that is a number without any decimal points).
+
+To define a variable we need to specify the data type, then give our variable a name, and
+optionally add an expression to initialize the variable with a value.
+

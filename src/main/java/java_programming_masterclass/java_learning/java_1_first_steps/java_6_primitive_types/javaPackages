@@ -1,0 +1,7 @@
+Java Packages
+
+A package is a way to organize your java projects. For now, consider them as folders with
+learnprogramming in our example being a subfolder of academy. Companies use their
+domain names reversed.
+
+So learnprograming.academy becomes academy.learnprogramming

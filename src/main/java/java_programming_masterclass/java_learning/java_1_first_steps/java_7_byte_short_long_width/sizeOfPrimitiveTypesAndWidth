@@ -1,0 +1,16 @@
+Size of Primitive Types and Width
+
+A Byte occupies 8 bits. A bit is not directly represented in a primitive type - We have a
+boolean which is not really the same thing. So a Byte occupies 8 bits. We say that a byte
+has a width of 8.
+
+A short can store a large range of numbers and occupies 16 bits, and has a width of 16.
+
+An int, has a much larger range as we know, and occupies 32 bits, and has a width of 32.
+
+The point here is that each primitive type occupies a different amount of memory - we can
+see that an int needs four times the amount of space, than a byte does for example.
+
+It's not particularly relevant for you to know these numbers, but it could come up
+as an interview question and it is useful to know that certain data types take up
+more space than others.

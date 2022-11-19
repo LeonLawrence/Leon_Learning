@@ -1,0 +1,38 @@
+What are Operators?
+
+Operators in Java are special symbols that perform specific operations on one, two, or three operands,
+and then return a result. As an example, we used the + (addition) operator
+to sum the value of two variables.
+
+
+
+What is an Operand?
+
+An operand is a term used to describe any object that is manipulated by an operator.
+If we consider this statement.
+
+int myVar = 15 + 12;
+
+Then + is the operator, and 15 and 12 are the operands. Variables used instead of literals
+are also operands.
+
+double mySalary = hoursWorked * hourlyRate
+
+In the above line hoursWorked and hourlyRate are operands, and * (multiplication) is the
+operator.
+
+
+
+What is an Expression?
+
+In the statement below,
+
+hoursWorked * hourlyRate is the expression.
+
+If hoursWorked was 10.00 and hourlyRate was 20.00 then the expression would return 200.00;
+
+double mySalary = hoursWorked * hourlyRate;
+
+Lets explore Operators in more detail.
+
+

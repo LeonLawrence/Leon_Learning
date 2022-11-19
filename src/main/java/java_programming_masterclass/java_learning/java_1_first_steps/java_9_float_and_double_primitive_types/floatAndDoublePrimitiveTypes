@@ -1,0 +1,29 @@
+Floating Point Numbers -
+Unlike whole numbers, floating point numbers have fractional parts that we express with a
+decimal point. 3.14159 is an example.
+
+Floating point numbers are also known as real numbers. We use a floating point number
+when we need more precision in calculations.
+
+
+
+Single and Double Precision -
+Precision refers to the format and amount of space occupied by the type. Single precision
+occupies 32 bits (so has a width of 32) and a Double precision occupies 64 bits (and thus
+has a width of 64).
+
+As a result the float has a range from 1.4E-45 to 3.4028235E+38 and the double is much
+more precise with a range from 4.9E-324 to 1.7976931348623147E+308.
+
+
+
+Floating Point Number Precision Tips -
+In general float and double are great for general floating point operations. But both are
+not great to use where precise calculations are required - this is due to a limitation
+with how floating point numbers are stored, and not a Java problem as such.
+
+Java has a class called BigDecimal that overcomes this. For now just keep in the back of your mind
+that when precise calculations are necessary, such as when performing currency calculations, floating-point
+types should not be used.
+
+But for general calculations float and double are fine.

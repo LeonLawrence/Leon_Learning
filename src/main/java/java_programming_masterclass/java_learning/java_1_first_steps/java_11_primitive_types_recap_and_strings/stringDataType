@@ -1,0 +1,8 @@
+What is a String?
+
+A String is a sequence of characters. In the case of the char which you can see above,
+it could contain a single character only (regular character or Unicode character).
+
+A String can contain a sequence of characters. A large number of characters. Technically
+it's limited by memory or the MAX_VALUE of an int which was 2.14 Billion. That's a lot of
+characters
