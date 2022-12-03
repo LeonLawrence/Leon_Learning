@@ -1,8 +1,0 @@
-Overflow and Underflow in Java
-
-If you try and put a value larger than the maximum value in java, or a value smaller than
-the minimum value in Java, then you will get an Overflow in the case of the maximum value
-or an Underflow in the case of the minimum.
-
-The computer just skips back to the minimum number or the maximum number, which is
-usually not what you want. It's an important concept to be aware of.
