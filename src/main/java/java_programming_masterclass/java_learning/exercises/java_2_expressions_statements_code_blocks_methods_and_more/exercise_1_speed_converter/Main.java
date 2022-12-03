@@ -1,0 +1,4 @@
+package java_programming_masterclass.java_learning.exercises.java_2_expressions_statements_code_blocks_methods_and_more.exercise_1_speed_converter;
+
+public class Main {
+}
